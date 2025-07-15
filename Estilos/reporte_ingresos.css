@@ -1,0 +1,157 @@
+:root {
+    --primary-color: #aad1eb;       /* Celeste */
+    --primary-dark: #bde2fa;        /* Celeste más oscuro */
+    --secondary-color: #e74c3c;     /* Rojo para botón PDF */
+    --border-radius: 8px;
+}
+
+body {
+    background-color: #f5f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reporte-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background: linear-gradient(135deg, #0d6efd, #198754);
+    color: white;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.content-card,
+.reporte-card,
+.filter-card {
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.reporte-card h3 {
+    color: var(--primary-dark);
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.summary-card {
+    background-color: #f8f9fa;
+    border-left: 5px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.summary-number {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.footer-btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+/* Tabla con estilo celeste */
+.table th {
+    background-color: #cdedfc; /* celeste claro */
+    color: #000;
+}
+
+.table tfoot th {
+    background-color: #c1e2f1; /* celeste más fuerte */
+    font-weight: bold;
+    color: #000;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(52, 152, 219, 0.1);
+}
+
+/* Botones */
+.action-btn {
+    transition: all 0.3s;
+}
+
+.action-btn:hover {
+    transform: translateY(-3px);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-dark);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+}
+
+.btn-print {
+    background-color: var(--secondary-color);
+    border-color: #c0392b;
+    color: white;
+}
+
+.btn-print:hover {
+    background-color: #c0392b;
+    color: white;
+}
+
+.back-btn {
+    margin-top: 20px;
+    padding: 8px 20px;
+    font-size: 16px;
+}
+
+/* Estilos para impresión */
+@media print {
+    .no-print {
+        display: none;
+    }
+
+    body {
+        background-color: white;
+    }
+
+    .reporte-container {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        background-color: white;
+        color: black;
+        box-shadow: none;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .reporte-card {
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+}
