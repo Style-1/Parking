@@ -12,8 +12,8 @@ Sistema web desarrollado en **PHP** que permite gestionar de forma eficiente el 
 ### 📝 Registro de Vehículos
 ![Registro de Vehículos](img/registro.png)
 
-### 📄 Reporte de Boletas
-![Reporte de Boletas](img/reporte%20-%20boletas.png)
+### 🧾 Generación de Boletas
+![Boleta](img/boleta.png)
 
 ### 🛠️ Panel de Administración
 ![Panel de Administración](img/panel-administracion.png)
@@ -21,8 +21,8 @@ Sistema web desarrollado en **PHP** que permite gestionar de forma eficiente el 
 ### 💰 Caja y Cobros
 ![Caja](img/caja.png)
 
-### 🧾 Generación de Boletas
-![Boleta](img/boleta.png)
+### 📄 Reporte de Boletas
+![Reporte de Boletas](img/reporte%20-%20boletas.png)
 
 ### 📈 Reporte de Ingresos
 ![Reporte de Ingresos](img/reporte%20-%20ingresos.png)
