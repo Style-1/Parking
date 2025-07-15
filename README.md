@@ -1,53 +1,54 @@
 # 🚗 Sistema de Gestión de Parqueo
 
-Este es un sistema web desarrollado en PHP para gestionar el ingreso, salida y cobro de vehículos en un estacionamiento. Incluye generación de boletas, control de caja, reportes de ingresos y administración general.
+Sistema web desarrollado en **PHP** que permite gestionar de forma eficiente el ingreso, salida y cobro de vehículos en un estacionamiento. Incluye generación automática de boletas, control de caja, reportes financieros y un panel administrativo.
 
 ---
 
 ## 📸 Capturas de Pantalla
 
-### Inicio de sesión
+### 🔐 Inicio de Sesión
 ![Login](img/login.png)
 
-### Panel de Administración
-![Panel](img/panel-administracion.png)
+### 🛠️ Panel de Administración
+![Panel de Administración](img/panel-administracion.png)
 
-### Registro de Vehículo
-![Registro](img/registro.png)
+### 📝 Registro de Vehículos
+![Registro de Vehículos](img/registro.png)
 
-### Caja - Cobro
+### 💰 Caja y Cobros
 ![Caja](img/caja.png)
 
-### Generación de Boleta
+### 🧾 Generación de Boletas
 ![Boleta](img/boleta.png)
 
-### Reporte de Ingresos
-![Reporte Ingresos](img/reporte%20-%20ingresos.png)
+### 📈 Reporte de Ingresos
+![Reporte de Ingresos](img/reporte%20-%20ingresos.png)
 
-### Reporte de Boletas
-![Reporte Boletas](img/reporte%20-%20boletas.png)
+### 📄 Reporte de Boletas
+![Reporte de Boletas](img/reporte%20-%20boletas.png)
 
-### Estadísticas Diarias
-![Estadísticas por Día](img/estadisticas%20por%20dia.png)
+### 📊 Estadísticas Diarias
+![Estadísticas Diarias](img/estadisticas%20por%20dia.png)
 
-### Vehículos en el Parking
-![Reporte Vehículos](img/reporte-de-vehiculos-%20en-parking.png)
+### 🚘 Vehículos en el Estacionamiento
+![Vehículos en Parking](img/reporte-de-vehiculos-%20en-parking.png)
 
 ---
 
 ## ⚙️ Tecnologías Utilizadas
 
-- PHP 8.x
-- MySQL
-- HTML + CSS
-- Bootstrap (opcional)
-- FPDF (para PDFs)
-- Git + GitHub
+- **PHP 8.x**
+- **MySQL**
+- **HTML5 & CSS3**
+- **Bootstrap** (opcional)
+- **FPDF** (para generación de PDF)
+- **Git & GitHub**
 
 ---
 
-## 🚀 Cómo instalar
+## 🚀 Instalación
 
 1. Clona el repositorio:
+
    ```bash
    git clone https://github.com/Style-1/Parking.git
