@@ -15,11 +15,11 @@ Sistema web desarrollado en **PHP** que permite gestionar de forma eficiente el 
 ### 🧾 Generación de Boletas
 ![Boleta](img/boleta.png)
 
-### 🛠️ Panel de Administración
-![Panel de Administración](img/panel-administracion.png)
-
 ### 💰 Caja y Cobros
 ![Caja](img/caja.png)
+
+### 🛠️ Panel de Administración
+![Panel de Administración](img/panel-administracion.png)
 
 ### 📄 Reporte de Boletas
 ![Reporte de Boletas](img/reporte%20-%20boletas.png)
