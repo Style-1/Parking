@@ -9,11 +9,11 @@ Sistema web desarrollado en **PHP** que permite gestionar de forma eficiente el 
 ### 🔐 Inicio de Sesión
 ![Login](img/login.png)
 
-### 🛠️ Panel de Administración
-![Panel de Administración](img/panel-administracion.png)
-
 ### 📝 Registro de Vehículos
 ![Registro de Vehículos](img/registro.png)
+
+### 🛠️ Panel de Administración
+![Panel de Administración](img/panel-administracion.png)
 
 ### 💰 Caja y Cobros
 ![Caja](img/caja.png)
