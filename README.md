@@ -7,31 +7,49 @@ Sistema web desarrollado en **PHP** que permite gestionar de forma eficiente el 
 ## 📸 Capturas de Pantalla
 
 ### 🔐 Inicio de Sesión
-![Login](img/login.png)
+<div align="center">
+  <img src="img/login.png" alt="Login" />
+</div>
 
 ### 📝 Registro de Vehículos
-![Registro de Vehículos](img/registro.png)
+<div align="center">
+  <img src="img/registro.png" alt="Registro de Vehículos" />
+</div>
 
 ### 🧾 Generación de Boletas
-![Boleta](img/boleta.png)
+<div align="center">
+  <img src="img/boleta.png" alt="Boleta" />
+</div>
 
 ### 💰 Caja y Cobros
-![Caja](img/caja.png)
+<div align="center">
+  <img src="img/caja.png" alt="Caja" />
+</div>
 
 ### 🛠️ Panel de Administración
-![Panel de Administración](img/panel-administracion.png)
+<div align="center">
+  <img src="img/panel-administracion.png" alt="Panel de Administración" />
+</div>
 
 ### 📄 Reporte de Boletas
-![Reporte de Boletas](img/reporte%20-%20boletas.png)
+<div align="center">
+  <img src="img/reporte%20-%20boletas.png" alt="Reporte de Boletas" />
+</div>
 
 ### 📈 Reporte de Ingresos
-![Reporte de Ingresos](img/reporte%20-%20ingresos.png)
+<div align="center">
+  <img src="img/reporte%20-%20ingresos.png" alt="Reporte de Ingresos" />
+</div>
 
 ### 📊 Estadísticas Diarias
-![Estadísticas Diarias](img/estadisticas%20por%20dia.png)
+<div align="center">
+  <img src="img/estadisticas%20por%20dia.png" alt="Estadísticas Diarias" />
+</div>
 
 ### 🚘 Vehículos en el Estacionamiento
-![Vehículos en Parking](img/reporte-de-vehiculos-%20en-parking.png)
+<div align="center">
+  <img src="img/reporte-de-vehiculos-%20en-parking.png" alt="Vehículos en Parking" />
+</div>
 
 ---
 
@@ -45,10 +63,3 @@ Sistema web desarrollado en **PHP** que permite gestionar de forma eficiente el 
 - **Git & GitHub**
 
 ---
-
-## 🚀 Instalación
-
-1. Clona el repositorio:
-
-   ```bash
-   git clone https://github.com/Style-1/Parking.git
